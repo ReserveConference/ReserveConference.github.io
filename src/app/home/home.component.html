@@ -6,7 +6,7 @@
                 </div>
             </mat-toolbar>
         </div>
-        <div *ngIf="!showForm" class="container my-md-4 p-md-3 p-0 container-border overflow-auto info-section">
+        <div *ngIf="!showForm" class="container my-md-4 p-md-3 container-border overflow-auto info-section">
             <app-info [settings]="setting" (showForm)="showTicketForm($event)"></app-info>
         </div>
     </ng-container>

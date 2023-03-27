@@ -21,6 +21,11 @@
     }
 }
 
+@media (max-width: 767px) {
+  .info-section {
+    height: calc(100% - 60px) !important;
+}
+}
 .bg {
     background-image: url('/assets/images/background.png');
     background-size: cover;
